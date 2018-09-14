@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+//主界面导航控制器
+@property (nonatomic, retain) UINavigationController* nav;
 
 @end
 

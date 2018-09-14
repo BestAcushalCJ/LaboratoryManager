@@ -6,7 +6,18 @@
 //  Copyright © 2017年 BestAcushlaCJ. All rights reserved.
 //
 
+/*
+ 停课功能通过发送推送消息来实现
+ 相应的停课标示也会在课程中显示
+ 推送消息由后台控制
+ 请假在界面中实现
+*/
+
+
 #import "AppDelegate.h"
+#import "loginController.h"
+#import "mainViewController.h"
+#import "accountTool.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +28,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    if([[[accountTool alloc] init] getFirstStart] == NO)
+        self.window.rootViewController = [[loginController alloc] init];
+    
+    else
+    {
+        mainViewController* mainController = [[mainViewController alloc] init];
+        _nav = [[UINavigationController alloc] initWithRootViewController:mainController];
+        
+        self.window.rootViewController = _nav;
+    }
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

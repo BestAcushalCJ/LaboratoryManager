@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261B0AFA1E729D9700A434D2 /* accountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B0AF91E729D9700A434D2 /* accountTool.m */; };
+		261E8A451E7FF201006EF971 /* remindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261E8A441E7FF201006EF971 /* remindViewController.m */; };
+		261E8A491E8000D3006EF971 /* feedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261E8A471E8000D3006EF971 /* feedbackViewController.m */; };
+		261E8A4A1E8000D3006EF971 /* feedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261E8A481E8000D3006EF971 /* feedbackViewController.xib */; };
+		261E8A4E1E8002DC006EF971 /* aboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261E8A4C1E8002DC006EF971 /* aboutViewController.m */; };
+		261E8A4F1E8002DC006EF971 /* aboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261E8A4D1E8002DC006EF971 /* aboutViewController.xib */; };
+		261E8A521E822351006EF971 /* promptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261E8A511E822351006EF971 /* promptView.m */; };
+		262BAB8F1E764E47002DC8EC /* quitDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262BAB8D1E764E47002DC8EC /* quitDetailsViewController.m */; };
+		262BAB901E764E47002DC8EC /* quitDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262BAB8E1E764E47002DC8EC /* quitDetailsViewController.xib */; };
+		262BAB941E76947A002DC8EC /* fixDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262BAB921E76947A002DC8EC /* fixDetailsViewController.m */; };
+		262BAB951E76947A002DC8EC /* fixDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262BAB931E76947A002DC8EC /* fixDetailsViewController.xib */; };
 		264E120E1E7238CD00844224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E120D1E7238CD00844224 /* main.m */; };
 		264E12111E7238CD00844224 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E12101E7238CD00844224 /* AppDelegate.m */; };
-		264E12141E7238CD00844224 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E12131E7238CD00844224 /* ViewController.m */; };
 		264E12171E7238CD00844224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E12151E7238CD00844224 /* Main.storyboard */; };
 		264E12191E7238CD00844224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264E12181E7238CD00844224 /* Assets.xcassets */; };
 		264E121C1E7238CD00844224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E121A1E7238CD00844224 /* LaunchScreen.storyboard */; };
 		264E12271E7238CD00844224 /* laboratoryManager_version1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E12261E7238CD00844224 /* laboratoryManager_version1_0Tests.m */; };
 		264E12321E7238CE00844224 /* laboratoryManager_version1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E12311E7238CE00844224 /* laboratoryManager_version1_0UITests.m */; };
+		264E12411E7238F300844224 /* loginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E12401E7238F300844224 /* loginController.m */; };
+		264E12441E72480900844224 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E12431E72480900844224 /* mainViewController.m */; };
+		2664BCC41E73CD8800200248 /* coursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664BCC31E73CD8800200248 /* coursesViewController.m */; };
+		2664BCC71E73CDA300200248 /* quitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664BCC61E73CDA300200248 /* quitViewController.m */; };
+		2664BCCA1E73CDC000200248 /* fixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664BCC91E73CDC000200248 /* fixViewController.m */; };
+		2664BCCD1E73CDCF00200248 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664BCCC1E73CDCF00200248 /* settingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +51,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261B0AF81E729D9700A434D2 /* accountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accountTool.h; sourceTree = "<group>"; };
+		261B0AF91E729D9700A434D2 /* accountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = accountTool.m; sourceTree = "<group>"; };
+		261E8A431E7FF201006EF971 /* remindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = remindViewController.h; sourceTree = "<group>"; };
+		261E8A441E7FF201006EF971 /* remindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = remindViewController.m; sourceTree = "<group>"; };
+		261E8A461E8000D3006EF971 /* feedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedbackViewController.h; sourceTree = "<group>"; };
+		261E8A471E8000D3006EF971 /* feedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackViewController.m; sourceTree = "<group>"; };
+		261E8A481E8000D3006EF971 /* feedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = feedbackViewController.xib; sourceTree = "<group>"; };
+		261E8A4B1E8002DC006EF971 /* aboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutViewController.h; sourceTree = "<group>"; };
+		261E8A4C1E8002DC006EF971 /* aboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutViewController.m; sourceTree = "<group>"; };
+		261E8A4D1E8002DC006EF971 /* aboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aboutViewController.xib; sourceTree = "<group>"; };
+		261E8A501E822351006EF971 /* promptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = promptView.h; sourceTree = "<group>"; };
+		261E8A511E822351006EF971 /* promptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = promptView.m; sourceTree = "<group>"; };
+		262BAB8C1E764E47002DC8EC /* quitDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quitDetailsViewController.h; path = ../quitDetailsViewController.h; sourceTree = "<group>"; };
+		262BAB8D1E764E47002DC8EC /* quitDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = quitDetailsViewController.m; path = ../quitDetailsViewController.m; sourceTree = "<group>"; };
+		262BAB8E1E764E47002DC8EC /* quitDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = quitDetailsViewController.xib; path = ../quitDetailsViewController.xib; sourceTree = "<group>"; };
+		262BAB911E76947A002DC8EC /* fixDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixDetailsViewController.h; sourceTree = "<group>"; };
+		262BAB921E76947A002DC8EC /* fixDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fixDetailsViewController.m; sourceTree = "<group>"; };
+		262BAB931E76947A002DC8EC /* fixDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fixDetailsViewController.xib; sourceTree = "<group>"; };
 		264E12091E7238CD00844224 /* laboratoryManager_version1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laboratoryManager_version1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E120D1E7238CD00844224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		264E120F1E7238CD00844224 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		264E12101E7238CD00844224 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		264E12121E7238CD00844224 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		264E12131E7238CD00844224 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		264E12161E7238CD00844224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		264E12181E7238CD00844224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264E121B1E7238CD00844224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +83,18 @@
 		264E122D1E7238CE00844224 /* laboratoryManager_version1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laboratoryManager_version1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E12311E7238CE00844224 /* laboratoryManager_version1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laboratoryManager_version1_0UITests.m; sourceTree = "<group>"; };
 		264E12331E7238CE00844224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264E123F1E7238F300844224 /* loginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginController.h; sourceTree = "<group>"; };
+		264E12401E7238F300844224 /* loginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginController.m; sourceTree = "<group>"; };
+		264E12421E72480900844224 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainViewController.h; path = ../mainViewController.h; sourceTree = "<group>"; };
+		264E12431E72480900844224 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainViewController.m; path = ../mainViewController.m; sourceTree = "<group>"; };
+		2664BCC21E73CD8800200248 /* coursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coursesViewController.h; sourceTree = "<group>"; };
+		2664BCC31E73CD8800200248 /* coursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coursesViewController.m; sourceTree = "<group>"; };
+		2664BCC51E73CDA300200248 /* quitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quitViewController.h; sourceTree = "<group>"; };
+		2664BCC61E73CDA300200248 /* quitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quitViewController.m; sourceTree = "<group>"; };
+		2664BCC81E73CDC000200248 /* fixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixViewController.h; sourceTree = "<group>"; };
+		2664BCC91E73CDC000200248 /* fixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fixViewController.m; sourceTree = "<group>"; };
+		2664BCCB1E73CDCF00200248 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		2664BCCC1E73CDCF00200248 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +147,36 @@
 			children = (
 				264E120F1E7238CD00844224 /* AppDelegate.h */,
 				264E12101E7238CD00844224 /* AppDelegate.m */,
-				264E12121E7238CD00844224 /* ViewController.h */,
-				264E12131E7238CD00844224 /* ViewController.m */,
+				2664BCC21E73CD8800200248 /* coursesViewController.h */,
+				2664BCC31E73CD8800200248 /* coursesViewController.m */,
+				261E8A501E822351006EF971 /* promptView.h */,
+				261E8A511E822351006EF971 /* promptView.m */,
+				2664BCC51E73CDA300200248 /* quitViewController.h */,
+				2664BCC61E73CDA300200248 /* quitViewController.m */,
+				262BAB8C1E764E47002DC8EC /* quitDetailsViewController.h */,
+				262BAB8D1E764E47002DC8EC /* quitDetailsViewController.m */,
+				262BAB8E1E764E47002DC8EC /* quitDetailsViewController.xib */,
+				2664BCC81E73CDC000200248 /* fixViewController.h */,
+				2664BCC91E73CDC000200248 /* fixViewController.m */,
+				262BAB911E76947A002DC8EC /* fixDetailsViewController.h */,
+				262BAB921E76947A002DC8EC /* fixDetailsViewController.m */,
+				262BAB931E76947A002DC8EC /* fixDetailsViewController.xib */,
+				2664BCCB1E73CDCF00200248 /* settingViewController.h */,
+				2664BCCC1E73CDCF00200248 /* settingViewController.m */,
+				261E8A431E7FF201006EF971 /* remindViewController.h */,
+				261E8A441E7FF201006EF971 /* remindViewController.m */,
+				261E8A461E8000D3006EF971 /* feedbackViewController.h */,
+				261E8A471E8000D3006EF971 /* feedbackViewController.m */,
+				261E8A481E8000D3006EF971 /* feedbackViewController.xib */,
+				261E8A4B1E8002DC006EF971 /* aboutViewController.h */,
+				261E8A4C1E8002DC006EF971 /* aboutViewController.m */,
+				261E8A4D1E8002DC006EF971 /* aboutViewController.xib */,
+				264E12421E72480900844224 /* mainViewController.h */,
+				264E12431E72480900844224 /* mainViewController.m */,
+				264E123F1E7238F300844224 /* loginController.h */,
+				264E12401E7238F300844224 /* loginController.m */,
+				261B0AF81E729D9700A434D2 /* accountTool.h */,
+				261B0AF91E729D9700A434D2 /* accountTool.m */,
 				264E12151E7238CD00844224 /* Main.storyboard */,
 				264E12181E7238CD00844224 /* Assets.xcassets */,
 				264E121A1E7238CD00844224 /* LaunchScreen.storyboard */,
@@ -247,8 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				264E121C1E7238CD00844224 /* LaunchScreen.storyboard in Resources */,
+				262BAB901E764E47002DC8EC /* quitDetailsViewController.xib in Resources */,
+				261E8A4F1E8002DC006EF971 /* aboutViewController.xib in Resources */,
 				264E12191E7238CD00844224 /* Assets.xcassets in Resources */,
+				262BAB951E76947A002DC8EC /* fixDetailsViewController.xib in Resources */,
 				264E12171E7238CD00844224 /* Main.storyboard in Resources */,
+				261E8A4A1E8000D3006EF971 /* feedbackViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +349,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264E12141E7238CD00844224 /* ViewController.m in Sources */,
+				264E12411E7238F300844224 /* loginController.m in Sources */,
 				264E12111E7238CD00844224 /* AppDelegate.m in Sources */,
+				261E8A4E1E8002DC006EF971 /* aboutViewController.m in Sources */,
+				262BAB941E76947A002DC8EC /* fixDetailsViewController.m in Sources */,
+				261E8A491E8000D3006EF971 /* feedbackViewController.m in Sources */,
+				261B0AFA1E729D9700A434D2 /* accountTool.m in Sources */,
+				2664BCC41E73CD8800200248 /* coursesViewController.m in Sources */,
+				262BAB8F1E764E47002DC8EC /* quitDetailsViewController.m in Sources */,
+				2664BCCA1E73CDC000200248 /* fixViewController.m in Sources */,
 				264E120E1E7238CD00844224 /* main.m in Sources */,
+				264E12441E72480900844224 /* mainViewController.m in Sources */,
+				261E8A521E822351006EF971 /* promptView.m in Sources */,
+				2664BCCD1E73CDCF00200248 /* settingViewController.m in Sources */,
+				2664BCC71E73CDA300200248 /* quitViewController.m in Sources */,
+				261E8A451E7FF201006EF971 /* remindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +593,7 @@
 				264E12381E7238CE00844224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		264E12391E7238CE00844224 /* Build configuration list for PBXNativeTarget "laboratoryManager_version1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +602,7 @@
 				264E123B1E7238CE00844224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		264E123C1E7238CE00844224 /* Build configuration list for PBXNativeTarget "laboratoryManager_version1.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +611,7 @@
 				264E123E1E7238CE00844224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
